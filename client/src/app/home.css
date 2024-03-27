@@ -1,0 +1,106 @@
+.home-banner {
+  width: 100%;
+  object-fit: cover;
+  height: 40rem;
+}
+
+/* Essential Content Styles */
+
+.essential-content {
+  top: 12rem;
+  left: 8rem;
+}
+
+.essential-banner-image {
+  width: 100%;
+  object-fit: cover;
+  height: 42rem;
+  margin: 5rem 0 0 0;
+}
+
+/* Herb Content Styles */
+.herb-banner-image {
+  width: 100%;
+  object-fit: cover;
+  height: 40rem;
+  margin: 5rem 0 0 0;
+}
+
+/* Premium Content Styles */
+.premium-banner-image {
+  width: 100%;
+  object-fit: cover;
+  height: 40rem;
+  margin: 5rem 0 0 0;
+}
+
+.premium-content {
+  top: 10rem;
+  left: 45rem;
+}
+
+/* Flower Image */
+.flower-image{
+  position: absolute;
+  right: 0;
+  bottom: 65rem;
+  z-index: 0;
+}
+
+/* ========================== Mobile Responsive Styles ========================= */
+@media (max-width: 768px) {
+  .home-banner {
+    width: 100%;
+    height: 20rem;
+  }
+
+  /* Essential Content Styles */
+  .essential-content {
+    top: 1rem;
+    left: 3rem;
+  }
+
+  .essential-paragraph {
+    font-size: 0.5rem;
+    font-weight: 700;
+    width: 50%;
+  }
+
+  .essential-button {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.5rem;
+    font-weight: 700;
+  }
+
+  .essential-banner-image {
+    width: 100%;
+    height: 12rem;
+  }
+
+  /* herb Content Styles */
+  .herb-banner-image {
+    width: 100%;
+    height: 12rem;
+  }
+
+  /* premium Content Styles */
+  .premium-banner-image {
+    width: 100%;
+    height: 12rem;
+  }
+
+  .premium-content {
+    top: 1rem;
+    left: 10rem;
+    width: 100%;
+  }
+
+  /* Flower Image */
+  .flower-image{
+    position: absolute;
+    width: 19rem;
+    right: 0rem;
+    bottom: 40rem;
+    z-index: 0;
+  }
+}

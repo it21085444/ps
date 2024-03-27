@@ -1,0 +1,47 @@
+.cosmetic-banner {
+    width: 100%;
+    height: 30rem;
+    background-image: linear-gradient(180deg, #ffffff, #f5cdc7);
+    position: relative;
+  }
+  
+  .cosmetic-banner-content {
+    position: absolute;
+    bottom: 8rem;
+    left: 10rem;
+    width: 50%;
+  }
+/* ========================== */
+
+.icon-section-icon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #e7536e;
+}
+
+.map-container {
+    width: 90%;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    position: relative;
+}
+
+.map-container iframe {
+    position: absolute;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  }
+
+
+  @media (max-width: 768px) {
+    .cosmetic-banner-content {
+        position: absolute;
+        bottom: 5rem;
+        left: 2rem;
+        width: 18rem;
+      }
+  }

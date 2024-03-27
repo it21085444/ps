@@ -1,0 +1,18 @@
+.shipgrid-container {
+  display: grid;
+  grid-template-columns: 2fr auto 1fr; /* First two columns auto-sized, third column takes the remaining space */
+  gap: 8px; /* Gap between grid items */
+  margin-top: 2rem; /* Top margin */
+  justify-content: right; /* Center the grid horizontally */
+}
+
+.shipping-button {
+  background-color: #f1b3b4; /* Background color */
+  color: white; /* Text color */
+  padding: 14px 24px; /* Top/Bottom padding: 10px, Left/Right padding: 20px */
+  width: 270px; /* Width of the button */
+  text-align: center; /* Center align text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  justify-self: center; /* Center the button within the grid cell */
+}

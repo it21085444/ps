@@ -1,0 +1,66 @@
+.aboutus-container {
+  position: relative;
+}
+
+.aboutus-banner {
+    width: 100%;
+    object-fit: cover;
+    height: 40rem;
+  }
+
+  /* Content Styles */
+
+.aboutus-content {
+  position:absolute;
+    bottom : 15rem;
+    left: 8rem;
+  }
+
+  .background-container {
+    position: relative;
+  }
+  
+  .background-container::before,
+  .background-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%; /* Adjust the width as needed */
+    background-repeat: no-repeat;
+    background-size: 25% auto;
+  }
+  
+  .background-container::before {
+    left: 0;
+    top: 4rem;
+    background-image: url('/images/aboutus/1.svg');
+  }
+  
+  .background-container::after {
+    right: 0;
+    top:6rem;
+    background-position: right;
+    background-image: url('/images/aboutus/2.svg');
+  }
+  
+
+  /* ========================== Mobile Responsive Styles ========================= */
+@media (max-width: 768px) {
+  .aboutus-banner {
+    height: auto;
+  }
+
+  /* Essential Content Styles */
+  .aboutus-content {
+    position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        padding: 2rem;
+        text-align: left; /* Align text to left */
+        margin-top: 4rem; /* Add margin-top for spacing */
+        
+  }
+}

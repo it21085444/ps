@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115vh; /* Adjust if needed */
+}
+.custom-checkbox:checked {
+  border-color: #f1b3b4;
+  background-color: #f1b3b4;
+}

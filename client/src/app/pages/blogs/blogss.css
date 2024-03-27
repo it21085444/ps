@@ -1,0 +1,36 @@
+.blog-container {
+  position: relative;
+}
+
+.blog-banner {
+    width: 100%;
+    object-fit: cover;
+    height: 40rem;
+  }
+
+    /* Content Styles */
+
+.blog-content {
+  position:absolute;
+    bottom : 15rem;
+    left: 8rem;
+  }
+
+    /* ========================== Mobile Responsive Styles ========================= */
+@media (max-width: 768px) {
+  .blog-banner {
+    height: auto;
+  }
+
+  .blog-content {
+    position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        padding: 2rem;
+        text-align: left; /* Align text to left */
+        margin-top: 4rem; /* Add margin-top for spacing */
+        
+  }
+}
